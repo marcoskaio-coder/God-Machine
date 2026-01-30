@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "O LOUCO",
+    "numero": "0",
+    "arquetipo": "O Inocente",
+    "msg": "Caminho aberto para o novo. O salto da fé é necessário.",
+    "saudacao": "Laroyê! O movimento começou.",
+    "elemento": "Ar/Éter",
+    "planeta": "Urano"
+  },
+  {
+    "nome": "O MAGO",
+    "numero": "I",
+    "arquetipo": "O Criador",
+    "msg": "Você tem as ferramentas para transmutar a realidade.",
+    "saudacao": "Axé! A ferramenta está na sua mão.",
+    "elemento": "Ar",
+    "planeta": "Mercúrio"
+  },
+  {
+    "nome": "A SACERDOTISA",
+    "numero": "II",
+    "arquetipo": "A Sábia",
+    "msg": "O segredo está guardado no silêncio. Ouça sua intuição.",
+    "saudacao": "Saluba! A sabedoria vem das profundezas.",
+    "elemento": "Água",
+    "planeta": "Lua"
+  },
+  {
+    "nome": "A IMPERATRIZ",
+    "numero": "III",
+    "arquetipo": "A Mãe",
+    "msg": "Abundância e fertilidade. O que foi plantado crescerá.",
+    "saudacao": "Ora iê iê ô! A doçura gera vida.",
+    "elemento": "Terra/Água",
+    "planeta": "Vênus"
+  },
+  {
+    "nome": "O IMPERADOR",
+    "numero": "IV",
+    "arquetipo": "O Governante",
+    "msg": "Estrutura e autoridade. É hora de colocar ordem no caos.",
+    "saudacao": "Kaô Kabecilê! A justiça é o trono.",
+    "elemento": "Fogo",
+    "planeta": "Áries/Marte"
+  },
+  {
+    "nome": "O HIEROFANTE",
+    "numero": "V",
+    "arquetipo": "O Mestre",
+    "msg": "Siga a tradição ou busque um conselho superior.",
+    "saudacao": "Epa Babá! A paz guia o ensinamento.",
+    "elemento": "Terra",
+    "planeta": "Touro"
+  },
+  {
+    "nome": "OS ENAMORADOS",
+    "numero": "VI",
+    "arquetipo": "O Amante",
+    "msg": "Uma escolha precisa ser feita entre dois caminhos.",
+    "saudacao": "Arroboboi! A dualidade se torna união.",
+    "elemento": "Ar",
+    "planeta": "Gêmeos"
+  },
+  {
+    "nome": "O CARRO",
+    "numero": "VII",
+    "arquetipo": "O Herói",
+    "msg": "Vitória através do controle e da direção firme.",
+    "saudacao": "Ogunhê! O caminho está aberto para o avanço.",
+    "elemento": "Água",
+    "planeta": "Câncer"
+  },
+  {
+    "nome": "A JUSTIÇA",
+    "numero": "VIII",
+    "arquetipo": "O Juiz",
+    "msg": "Equilíbrio necessário. Você colherá exatamente o que semeou.",
+    "saudacao": "Kaô Kabecilê! A balança não falha.",
+    "elemento": "Ar",
+    "planeta": "Libra"
+  },
+  {
+    "nome": "O EREMITA",
+    "numero": "IX",
+    "arquetipo": "O Buscador",
+    "msg": "Recolhimento. A luz que você busca está dentro de você.",
+    "saudacao": "Atotô! No silêncio da terra está a resposta.",
+    "elemento": "Terra",
+    "planeta": "Virgem"
+  },
+  {
+    "nome": "RODA DA FORTUNA",
+    "numero": "X",
+    "arquetipo": "O Destino",
+    "msg": "Os ciclos mudam. O que estava embaixo agora sobe.",
+    "saudacao": "Laroyê! A roda do mundo é o movimento.",
+    "elemento": "Fogo",
+    "planeta": "Júpiter"
+  },
+  {
+    "nome": "A FORÇA",
+    "numero": "XI",
+    "arquetipo": "O Corajoso",
+    "msg": "Domine seus instintos com suavidade e coragem interna.",
+    "saudacao": "Epahey! A força da tempestade dominada.",
+    "elemento": "Fogo",
+    "planeta": "Leão"
+  },
+  {
+    "nome": "O ENFORCADO",
+    "numero": "XII",
+    "arquetipo": "O Mártir",
+    "msg": "Mude sua perspectiva. O sacrifício traz nova visão.",
+    "saudacao": "Odoyá! Deixe fluir, não resista à maré.",
+    "elemento": "Água",
+    "planeta": "Netuno"
+  },
+  {
+    "nome": "A MORTE",
+    "numero": "XIII",
+    "arquetipo": "O Transformador",
+    "msg": "Fim de um ciclo necessário para o renascimento.",
+    "saudacao": "Atotô! A terra transmuta o que morreu em vida.",
+    "elemento": "Água/Terra",
+    "planeta": "Escorpião"
+  },
+  {
+    "nome": "A TEMPERANÇA",
+    "numero": "XIV",
+    "arquetipo": "O Alquimista",
+    "msg": "Misture os opostos. A cura vem através da paciência.",
+    "saudacao": "Loci Loci! A alquimia das águas e das matas.",
+    "elemento": "Ar",
+    "planeta": "Sagitário"
+  },
+  {
+    "nome": "O DIABO",
+    "numero": "XV",
+    "arquetipo": "A Sombra",
+    "msg": "Cuidado com as correntes invisíveis e os vícios da mente.",
+    "saudacao": "Laroyê! O desejo é uma faca de dois gumes.",
+    "elemento": "Terra",
+    "planeta": "Capricórnio"
+  },
+  {
+    "nome": "A TORRE",
+    "numero": "XVI",
+    "arquetipo": "O Destruidor",
+    "msg": "Estruturas falsas ruindo. A verdade dói, mas liberta.",
+    "saudacao": "Epahey! O raio que destrói a mentira.",
+    "elemento": "Fogo",
+    "planeta": "Marte"
+  },
+  {
+    "nome": "A ESTRELA",
+    "numero": "XVII",
+    "arquetipo": "A Esperança",
+    "msg": "Cura espiritual e renovação. Siga a sua luz guia.",
+    "saudacao": "Odoyá! A luz que reflete nas águas.",
+    "elemento": "Ar",
+    "planeta": "Aquário"
+  },
+  {
+    "nome": "A LUA",
+    "numero": "XVIII",
+    "arquetipo": "O Inconsciente",
+    "msg": "Ilusões e intuição. Nem tudo o que parece, é.",
+    "saudacao": "Saluba! O mistério das águas profundas.",
+    "elemento": "Água",
+    "planeta": "Peixes"
+  },
+  {
+    "nome": "O SOL",
+    "numero": "XIX",
+    "arquetipo": "A Criança/Luz",
+    "msg": "Clareza total, sucesso e vitalidade. O dia chegou.",
+    "saudacao": "Ewé Ó! A luz que faz a folha crescer.",
+    "elemento": "Fogo",
+    "planeta": "Sol"
+  },
+  {
+    "nome": "O JULGAMENTO",
+    "numero": "XX",
+    "arquetipo": "O Renascido",
+    "msg": "Chamado para uma nova vida. Preste contas ao seu eu superior.",
+    "saudacao": "Epa Babá! O despertar da consciência.",
+    "elemento": "Fogo/Ar",
+    "planeta": "Plutão"
+  },
+  {
+    "nome": "O MUNDO",
+    "numero": "XXI",
+    "arquetipo": "O Integrado",
+    "msg": "Conclusão de jornada. Você atingiu a totalidade.",
+    "saudacao": "Axé! O universo conspira em seu favor.",
+    "elemento": "Terra",
+    "planeta": "Saturno"
+  }
+]
