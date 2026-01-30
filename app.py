@@ -1,16 +1,21 @@
 import streamlit as st
 import json, random, time, hashlib, datetime, os
-import pandas as pd
 
-# Configurações de Estilo
-st.set_page_config(page_title="God Machine: Singularidade", page_icon="🔮")
+# --- CONFIGURAÇÃO DA PÁGINA ---
+st.set_page_config(page_title="GOD MACHINE", page_icon="🔮", layout="centered")
 
-# --- CARREGAR DADOS ---
+# Estilo CSS para parecer um terminal místico
+st.markdown("""
+    <style>
+    .main { background-color: #0e1117; color: #00ff41; }
+    .stButton>button { width: 100%; background-color: #2e3136; color: #00ff41; border: 1px solid #00ff41; }
+    </style>
+    """, unsafe_allow_html=True)
+
 def carregar_cartas():
     with open('cartas.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
-# --- LÓGICA DO ORÁCULO ---
 def calcular_raiz(nome):
     bin_str = ''.join(format(ord(x), '08b') for x in nome)
     soma = sum(int(d) for d in bin_str)
@@ -19,33 +24,43 @@ def calcular_raiz(nome):
     return soma
 
 # --- INTERFACE ---
-st.title("🔮 (0!)3x §//\/6UL4π|$")
-st.subheader("O Oráculo God Machine")
+st.title("📟 (0!)3x §//\/6UL4π|$")
+st.markdown("---")
+st.write("### BEM-VINDO À SINGULARIDADE")
 
-nome = st.text_input("Seu Nome Completo")
-pergunta = st.text_area("Sua Pergunta ao Axé")
+with st.form("ritual_form"):
+    nome = st.text_input("NOME COMPLETO DO CONSULENTE")
+    pergunta = st.text_input("SUA INTENÇÃO OU PERGUNTA")
+    submit = st.form_submit_button("INICIAR RITUAL DIGITAL")
 
-if st.button("Consultar o Destino"):
+if submit:
     if nome and pergunta:
-        deck = carregar_cartas()
-        raiz = calcular_raiz(nome)
-        
-        # Sorteio com a Seed Enigma X
-        random.seed(int(time.time()) + (raiz * 381654729))
-        carta = random.choice(deck)
-        
-        # Identificar Orixá
-        dict_axe = {"amor": "OXUM", "trabalho": "OXÓSSI", "justica": "XANGÔ", "guerra": "OGUM"}
-        orixa = next((v for k, v in dict_axe.items() if k in pergunta.lower()), "EXU")
+        with st.spinner('CALCULANDO MATRIZ DE SINCRONICIDADE...'):
+            time.sleep(2)
+            deck = carregar_cartas()
+            raiz = calcular_raiz(nome)
+            
+            random.seed(int(time.time()) + (raiz * 381654729))
+            carta = random.choice(deck)
+            
+            dict_axe = {"amor": "OXUM", "trabalho": "OXÓSSI", "justica": "XANGÔ", "guerra": "OGUM"}
+            orixa = next((v for k, v in dict_axe.items() if k in pergunta.lower()), "EXU")
 
-        # Display do Resultado
-        st.markdown(f"### Regência: {orixa}")
-        st.divider()
-        st.metric(label="Arcano", value=carta['nome'])
-        st.write(f"**Mensagem:** {carta['msg']}")
-        st.info(f"**Saudação:** {carta['saudacao']}")
+        # --- RESULTADO FINAL ---
+        st.success(f"REGÊNCIA DETECTADA: {orixa}")
         
-        # Salvar Log (Na nuvem, usaremos o segredo do Streamlit ou CSV)
-        # Nota: Em nuvens gratuitas, o CSV reseta. O ideal seria usar uma URL de Database.
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.header(f"[{carta['numero']}]")
+        with col2:
+            st.header(carta['nome'])
+        
+        st.subheader(f"\"{carta['msg']}\"")
+        
+        st.divider()
+        st.write(f"**Saudação:** {carta['saudacao']}")
+        st.write(f"**Elemento:** {carta['elemento']} | **Arquétipo:** {carta['arquetipo']}")
+        
+        st.caption(f"DNA Digital: Raiz {raiz} | ID: {hashlib.md5(nome.encode()).hexdigest()[:8]}")
     else:
-        st.error("Por favor, preencha todos os campos.")
+        st.warning("A matriz requer Nome e Pergunta para estabilizar.")
